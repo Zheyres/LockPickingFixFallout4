@@ -1,5 +1,5 @@
 # Set paths
-$iniPath = Join-Path $PSScriptRoot "Fallout4.ini"
+$iniPath = Join-Path $env:USERPROFILE "Documents\My Games\Fallout4\Fallout4.ini"
 $backupPath = "$iniPath.bak"
 $tempPath = "$iniPath.tmp"
 
